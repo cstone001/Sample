@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--To ensure proper rendering and touch zooming, add the following (line 6)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--width=device-width sets the width of the page to follow the screen width of device-->
+    <!--initial-scale=1 sets the initial zoom level when the page is first loaded-->
+    <title>Website Name</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!--OR-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--Latest minified Font Awesome CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+    <link rel="stylesheet" href="css/main.css"><!--MY STYLESHEET-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Diplomata SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  </head>
+  <body id="#" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <h1 class="logo text-center animated flash">LOGO</h1>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <!--<div class="container-fluid">-->
+        <!--NAV HEADER FOR COLLAPSE-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="logo">LOGO</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapse-navbar">
+          <ul class="nav nav-pills">
+            <!--<i class="fa fa-bars"></i>-->
+            <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#price">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      <!--</div>-->
+    </nav>
+    <div class="header">
+    </div>
+    <!--<div class="container">ADD CONTAINER TO MAKE JUMBOTRON NOT SPAN ENTIRE PAGE-->
+      <div id="home" class="jumbotron">
+
+      </div>
+    <!--</div>-->
+    <div id="about" class="container">
+      <h2 class="text-center">ABOUT US</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="container">
+      <h2 id="team" class="text-center">MEET OUR TEAM</h1>
+<!--****************************************TEAM MEMBER ONE************************************************-->
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/pexels-photo.jpg" class="img-responsive img-circle tan" alt="Team member">
+          <!--<img src="images/pexels-photo-76183.jpeg" class="img-responsive img-circle gray" alt="Team member">-->
+          <h3>NAME</h3>
+          <P>Ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+
+          <div class="text-center">
+            <!--<h3 class="text-center">Check out my work</h3>-->
+            <!--TRIGGER THE MODAL WITH A BUTTON-->
+            <button class="btn" data-toggle="modal" data-target="#modalPerson1">Check out my work</button>
+          </div>
+
+          <!--MODAL-->
+          <div id="modalPerson1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div id="carouselMemberOne" class="carousel slide" data-ride="carousel">
+
+            <!--WRAPPER FOR SLIDES -->
+            <div class="carousel-inner polaroid">
+              <div class="item active">
+                <img class="img-responsive" src="images/pexels-photo-319879-gal.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>One Image</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="images/fall-autumn-red-season.jpg" alt="...">
+                <div class="carousel-caption">
+                  <p>Two Image</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="images/pexels-photo-354607.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>Three Image</p>
+                </div>
+              </div>
+            </div>
+
+                <!--CONTROLS-->
+            <a class="left carousel-control" href="#carouselMemberOne" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselMemberOne" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!--/CAROUSEL-ID-->
+            </div><!--/MODAL-CONTENT-->
+          </div><!--/MODAL DIALOG-->
+        </div><!--/MODAL-->
+
+
+
+        </div><!--/COL-MD-4-->
+        <!--****************************************TEAM MEMBER TWO************************************************-->
+        <div class="col-md-4">
+          <img src="images/pexels-photo-225227.jpeg" class="img-responsive img-circle tan" alt="Team member">
+          <h3>NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <div class="text-center">
+            <!--<h3 class="text-center">Check out my work</h3>-->
+            <!--TRIGGER THE MODAL WITH A BUTTON-->
+            <button class="btn" data-toggle="modal" data-target="#modalPerson2">Check out my work</button>
+          </div>
+
+          <!--LARGE MODAL-->
+          <div id="modalPerson2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div id="carouselMemberTwo" class="carousel slide" data-ride="carousel">
+
+            <!--WRAPPER FOR SLIDES -->
+            <div class="carousel-inner polaroid">
+              <div class="item active">
+                <img class="img-responsive polo" src="images/chihuahua-dog-puppy-cute-39317.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>One Image</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="img-responsive polo" src="images/duck-mandarin-ducks-aix-galericulata-duck-bird-85674.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>Two Image</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="img-responsive polo" src="images/fallow-deer-hirsch-animal-nature-158185.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>Three Image</p>
+                </div>
+              </div>
+            </div>
+
+                <!--CONTROLS-->
+            <a class="left carousel-control" href="#carouselMemberTwo" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselMemberTwo" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!--/CAROUSEL-ID-->
+              </div><!--/MODAL-CONTENT-->
+            </div><!--/MODAL DIALOG-->
+          </div><!--/MODAL-->
+
+
+
+
+        </div><!--/COL-MD-4-->
+<!--****************************************TEAM MEMBER THREE************************************************-->
+        <div class="col-md-4">
+          <img src="images/photographer-camera-photo-photos-52496.jpeg" class="img-responsive img-circle dark" alt="Team member">
+          <!--<img src="images/pexels-photo-90362.jpeg" class="img-responsive img-circle gray" alt="Team member">-->
+          <h3>NAME</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <div class="text-center">
+            <!--<h3 class="text-center">Check out my work</h3>-->
+            <!--TRIGGER THE MODAL WITH A BUTTON-->
+            <button class="btn" data-toggle="modal" data-target="#modalPerson3">Check out my work</button>
+          </div>
+
+          <!--LARGE MODAL-->
+          <div id="modalPerson3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          <div id="carouselMemberThree" class="carousel slide" data-ride="carousel">
+
+            <!--WRAPPER FOR SLIDES -->
+            <div class="carousel-inner polaroid">
+              <div class="item active">
+                <img class="img-responsive" src="images/pexels-photo-186663.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>One Image</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="images/pexels-photo-256737.jpeg" alt="...">
+                <div class="carousel-caption">
+                  <p>Two Image</p>
+                </div>
+              </div>
+              <div class="item">
+                <img class="img-responsive" src="images/pexels-photo-27345.jpg" alt="...">
+                <div class="carousel-caption">
+                  <p>Three Image</p>
+                </div>
+              </div>
+            </div>
+
+                <!--CONTROLS-->
+            <a class="left carousel-control" href="#carouselMemberThree" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselMemberThree" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!--/CAROUSEL-ID-->
+              </div><!--/MODAL-CONTENT-->
+            </div><!--/MODAL DIALOG-->
+          </div><!--/MODAL-->
+        </div><!--/COL-MD-4-->
+      </div><!--/ROW-->
+    </div><!--/CONTAINER-->
+    <div id="price" class="container">
+      <h2 class="text-center">PRICING</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#demo" data-toggle="collapse">
+            <h3 class="text-center bronze">BRONZE</h3>
+          </a>
+          <div id="demo" class="collapse">
+            <ul class="list-group text-center">
+              <li class="list-group-item"><strong>adipisicing</strong> elit</li>
+              <li class="list-group-item"><strong>ipsum</strong> consectetur</li>
+              <li class="list-group-item"><strong>magna</strong> aliqua</li>
+              <li class="list-group-item"><strong>eiusmod</strong> tempor</li>
+              <li class="list-group-item">
+                <h3 class="cost bronze"><i class="fa fa-usd"></i> 200</h3>
+                per session
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#demo2" data-toggle="collapse">
+            <h3 class="text-center silver">SILVER</h3>
+          </a>
+          <div id="demo2" class="collapse">
+            <ul class="list-group text-center">
+              <li class="list-group-item"><strong>adipisicing</strong> elit</li>
+              <li class="list-group-item"><strong>ipsum</strong> consectetur</li>
+              <li class="list-group-item"><strong>magna</strong> aliqua</li>
+              <li class="list-group-item"><strong>eiusmod</strong> tempor</li>
+              <li class="list-group-item">
+                <h3 class="cost silver"><i class="fa fa-usd"></i> 300</h3>
+                per session
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <a href="#demo3" data-toggle="collapse">
+            <h3 class="text-center">GOLD</h3>
+          </a>
+          <div id="demo3" class="collapse">
+            <ul class="list-group text-center">
+              <li class="list-group-item"><strong>adipisicing</strong> elit</li>
+              <li class="list-group-item"><strong>ipsum</strong> consectetur</li>
+              <li class="list-group-item"><strong>magna</strong> aliqua</li>
+              <li class="list-group-item"><strong>eiusmod</strong> tempor</li>
+              <li class="list-group-item">
+                <h3 class="cost"><i class="fa fa-usd"></i> 400</h3>
+                per session
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div><!--/ROW-->
+    </div><!--/CONTAINER-->
+    <div id="contact" class="container">
+      <h2 class="text-center">CONTACT US</h2>
+      <p class="text-center"><em>We would love to shoot you!</em></p>
+        <div class="row test">
+          <div class="col-md-4">
+            <p><span class="glyphicon glyphicon-map-marker"></span>Atlanta, US</p>
+            <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 2626262626</p>
+            <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row"><!--trying to get form to submit if I change ID TO NAME it works-->
+              <form id="contactForm" method="post" onsubmit="return validateContactForm()">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                <!--<p id="rule1"></p>-->
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <button class="btn pull-right" type="submit">Send</button>
+              </div>
+            </div>
+              </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer text-center">
+        <h2>Follow Us</h2>
+        <!--<nav>-->
+        <ul class="list-unstyled list-inline">
+          <li><a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-lg" aria-hidden="false"></i></a></li>
+          <li><a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-lg" aria-hidden="false"></i></a></li>
+          <li><a href="https://www.instagram.com"><i class="fa fa-instagram fa-lg" aria-hidden="false"></i></a></li>
+          <li><a href="#"><i class="fa fa-home fa-lg" aria-hidden="false"></i></a></li>
+        </ul>
+        <a class="up-arrow" href="#" data-toggle="tooltip" title="Top of page">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Back to top</p>
+        <!--<p>Bootstrap Theme Made By <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p>-->
+        <!--</nav>-->
+      </div>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!--OR-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <!--<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+  <!--OR-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<script src="javascript/formValidate.js"></script>--MINE-->
+  <script src="bundles/0a3b9034e109d88d72f83c9e6c9d13b7.js"></script>
+
+
+
+<!---*******************THIS IS FOR AUTO COLOR CHANGE ON FORM INPUT*------------------------------------------>
+  <script>
+  $(document).ready(function() {
+      // Generate a simple captcha
+      function randomNumber(min, max) {
+          return Math.floor(Math.random() * (max - min + 1) + min);
+      }
+
+      function generateCaptcha() {
+          $('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
+      }
+
+      generateCaptcha();
+
+      $('#contactForm')
+          .formValidation({
+              framework: 'bootstrap',
+              icon: {
+                  valid: 'glyphicon glyphicon-ok',
+                  invalid: 'glyphicon glyphicon-remove',
+                  validating: 'glyphicon glyphicon-refresh'
+              },
+              fields: {
+                  name: {
+                      row: '.col-sm-6',
+                      validators: {
+                          notEmpty: {
+                              message: 'The name is required'
+                          },
+                          stringLength: {
+                              min: 2,
+                              max: 15,
+                              message: 'The name must be more than 1 and less than 16 characters long'
+                          },
+                          regexp: {
+                              regexp: /^([a-zA-Z\s]{2,15})$/,
+                              message: 'The name can only consist of alphabetical characters'
+                          }
+                      }
+                  },
+                  lastName: {
+                      row: '.col-xs-4',
+                      validators: {
+                          notEmpty: {
+                              message: 'The last name is required'
+                          },
+                          stringLength: {
+                              min: 2,
+                              max: 15,
+                              message: 'The last name must be more than 1 and less than 16 characters long'
+                          },
+                          regexp: {
+                              regexp: /^([a-zA-Z\s]{2,15})$/,
+                              message: 'The last name can only consist of alphabetical characters'
+                          }
+                      }
+                  },
+                  phoneNumber: {
+                      validators: {
+                          notEmpty: {
+                              message: 'The phone number is required'
+                          },
+                          regexp: {
+                              message: 'The phone number can only contain the digits, spaces, -, (, ), + and .',
+                              regexp: /^[0-9\s\-()+\.]+$/
+                          }
+                      }
+                  },
+                  email: {
+                      validators: {
+                          notEmpty: {
+                              message: 'The email address is required'
+                          },
+                          emailAddress: {
+                              message: 'The input is not a valid email address'
+                          }
+                      }
+                  },
+                  message: {
+                      validators: {
+                          notEmpty: {
+                              message: 'The message is required'
+                          },
+                          stringLength: {
+                              max: 700,
+                              message: 'The message must be less than 700 characters long'
+                          }
+                      }
+                  },
+                  captcha: {
+                      validators: {
+                          callback: {
+                              message: 'Wrong answer',
+                              callback: function(value, validator, $field) {
+                                  var items = $('#captchaOperation').html().split(' '),
+                                      sum   = parseInt(items[0]) + parseInt(items[2]);
+                                  return value == sum;
+                              }
+                          }
+                      }
+                  }
+              }
+          })
+          .on('err.form.fv', function(e) {
+              // Regenerate the captcha
+              generateCaptcha();
+          });
+  });
+  </script>
+<!-------------------*END*------------------------------------------------------------->
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
+<!--ADD SCROLLSPY-->
+<!--
+<body id="#" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="band" class="container">
+<div id="tour" class="container">
+<div id="contact" class="container">
+-->
