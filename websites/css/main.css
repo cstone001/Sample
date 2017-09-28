@@ -1,0 +1,226 @@
+p,h1,h2,h3,div,ul {
+  border: 1px red solid;
+}
+body {
+  background-color: #F4F4F4;
+  color: #373737;
+  font-family: "Raleway";
+  padding-top: 30px;
+}
+h1,h2,h3 {
+  color: #C0B283;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.footer i, .up-arrow {
+  color: #FFF;
+}
+
+i:hover , .up-arrow:hover{
+  color: #C0B283;
+}
+
+.help-block {
+  color: #a94442;
+  margin-right: 27px;
+}
+
+.glyphicon-ok {
+  color: #3c763d;
+  /*padding-right: inherit;*/
+  margin-right: 27px;
+}
+
+.glyphicon-remove {
+  color: #a94442;
+  margin-right: 27px;
+  top: 0px;
+}
+.has-feedback .form-control-feedback {
+  top: 0px;
+}
+/*************THIS IS FOR VALIDATION CHECKMARK************************/
+/*.has-success .form-control-feedback {
+    color: #3c763d;
+    margin-top: -27px;
+    margin-right: 27px;
+}*/
+/*.has-error .form-control {
+    border-color: #a94442;
+    /*margin-top: -27px;
+    margin-right: 27px;*
+}*/
+/*******************END***********************************************/
+
+
+.nav, .navbar-header, .navbar {
+  background-color: #373737;
+  /*opacity: 0.9*/
+}
+.navbar li a {
+  color: #C0B283;
+}
+
+.navbar li a:hover {
+    color: #FFF !important;
+    background-color: #DCD0C0;
+}
+
+.navbar li.active a {
+    color: #fff !important;
+    background-color:#DCD0C0 !important;
+}
+
+.footer {
+  background-color: #373737;
+  color: #F4F4F4;
+}
+
+textarea {
+  resize: none;
+}
+
+/*li {
+  list-style: none;
+}*/
+
+/*FINISH DESIGNING BUTTON*/
+button, .btn:focus {
+  /*display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;*/
+  /*text-decoration: none;
+  outline: none;*/
+  color: #fff;
+  background-color: #373737;
+  opacity: 0.8;
+  /*border: none;
+  border-radius: 15px;*/
+  box-shadow: 0 5px #999;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #373737;
+  opacity: 1;
+}
+
+
+button:active {
+  background-color: #373737;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+.silver {
+  color: #737776;
+}
+
+.bronze {
+  color: #cd7f32;
+}
+
+.cost {
+  background-color: #373737;
+}
+
+.img-circle {
+  padding-top: 2%;
+}
+
+.polaroid {
+  /*border-bottom: 100px solid white;*/
+  border-top: 15px solid white;
+  border-right: 15px solid white;
+  border-left: 15px solid white;
+}
+
+.polo {
+  background-color: white;
+}
+
+.carousel-caption {
+  position: initial;
+  padding-bottom: 5px;
+}
+
+.carousel-caption p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+  color: black;
+}
+
+.logo {
+  font-family: "Diplomata SC";
+  /*EXAMPLE*/
+  /*background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+
+  /*MY CODE, THE EXAMPLE AND MY CODE BOTH ARE SETTING THE BACKGROUND AND NOT THE TEXT */
+  background: -webkit-linear-gradient(top,#867c5b,#c0b283,#f4f4f4); /*Safari 5.1-6*/
+  background: -o-linear-gradient(top,#867c5b,#c0b283,#f4f4f4); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(top,#867c5b,#c0b283,#f4f4f4); /*Fx 3.6-15*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+/*ul li {
+  list-style-type: none;
+}*/
+.jumbotron {
+  background: #252930 url("../images/pexels-photo-134469-jmbtn.jpeg") no-repeat;
+  background-size: 100% 100%;
+  height: 510px;
+
+/*Team member photo's*/
+.tan {
+  background-color: #e5c2a4;
+}
+
+.dark {
+  background-color: #0f0808;
+}
+
+.gray {
+  border-color: #737776;
+}
+
+.bronze {
+  color: #cd7f32;
+}
+
+
+
+/*opacity for team members   background-color: #bea58d; */
+/*icons increase font-size*/
+
+/*
+/* Add a gray color to all navbar links *
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white *
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link *
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button *
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}*/
