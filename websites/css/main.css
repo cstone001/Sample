@@ -56,9 +56,15 @@ i:hover , .up-arrow:hover{
     background-color:#DCD0C0 !important;
 }
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0;
+}
+
 .footer {
   background-color: #373737;
   color: #F4F4F4;
+  height: fit-content;
 }
 
 textarea {
