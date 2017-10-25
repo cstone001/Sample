@@ -136,7 +136,7 @@ a:focus, a:hover {
   background: -o-linear-gradient(top,#867c5b,#c0b283,#f4f4f4); /*Opera 11.1-12*/
   background: -moz-linear-gradient(top,#867c5b,#c0b283,#f4f4f4); /*Fx 3.6-15*/
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
+  -webkit-text-fill-color: transparent;
 }
 
 .jumbotron {
