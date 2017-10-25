@@ -1,0 +1,184 @@
+//colors
+$wild_sand: #f4f4f4
+$color_tuatara_approx: #373737
+$color_indian_khaki_approx: #c0b283
+$white: #fff
+$color_apple_blossom_approx: #a94442
+$color_killarney_approx: #3c763d
+$color_wafer_approx: #dcd0c0
+$color_mountain_mist_approx: #999
+$color_storm_dust_approx: #666
+$color_tapa_approx: #737776
+$color_brandy_punch_approx: #cd7f32
+$black: black
+$color_shark_approx: #252930
+$color_asphalt_approx: #0f0808
+
+//fonts
+$font_0: Raleway
+$font_1: Permanent Marker
+$font_2: cursive
+$font_3: Diplomata SC
+
+//urls
+$url_0: url(../images/pexels-photo-134469-jmbtn.jpeg)
+
+//@extend-elements
+//original selectors
+//button, .btn:focus
+.extend_1
+	color: $white
+	background-color: $color_tuatara_approx
+	opacity: 0.8
+	box-shadow: 0 5px $color_mountain_mist_approx
+
+
+
+body
+	background-color: $wild_sand
+	color: $color_tuatara_approx
+	font-family: $font_0
+	padding-top: 30px
+
+h1
+	color: $color_indian_khaki_approx
+
+h2
+	color: $color_indian_khaki_approx
+
+h3
+	color: $color_indian_khaki_approx
+
+strong
+	font-weight: bold
+
+.footer
+	background-color: $color_tuatara_approx
+	color: $wild_sand
+	height: fit-content
+	i
+		color: $white
+
+
+.up-arrow
+	color: $white
+	&:hover
+		color: $color_indian_khaki_approx
+
+
+.help-block
+	color: $color_apple_blossom_approx
+	margin-right: 27px
+
+.glyphicon-ok
+	color: $color_killarney_approx
+	margin-right: 27px
+
+.glyphicon-remove
+	color: $color_apple_blossom_approx
+	margin-right: 27px
+	top: 0
+
+.nav
+	background-color: $color_tuatara_approx
+
+.navbar-header
+	background-color: $color_tuatara_approx
+
+.navbar
+	background-color: $color_tuatara_approx
+	li
+		a
+			color: $color_indian_khaki_approx
+			&:hover
+				color: $white !important
+				background-color: $color_wafer_approx
+
+
+		&.active a
+			color: $white !important
+			background-color: $color_wafer_approx !important
+
+
+
+.navbar-fixed-top
+	top: 0
+	border-width: 0
+
+textarea
+	resize: none
+
+button
+	@extend %extend_1
+	&:active
+		background-color: $color_tuatara_approx
+		box-shadow: 0 5px $color_storm_dust_approx
+		transform: translateY(4px)
+
+
+.btn
+	&:focus
+		@extend %extend_1
+
+	&:hover
+		color: $white
+		background-color: $color_tuatara_approx
+		opacity: 1
+
+
+a
+	&:focus
+		text-decoration: none
+
+	&:hover
+		text-decoration: none
+
+
+.silver
+	color: $color_tapa_approx
+
+.bronze
+	color: $color_brandy_punch_approx
+
+.cost
+	background-color: $color_tuatara_approx
+
+.img-circle
+	padding-top: 2%
+
+.polaroid
+	border: 15px solid $white
+	border-bottom: 0
+
+.polo
+	background-color: $white
+
+.carousel-caption
+	position: initial
+	padding-bottom: 5px
+	p
+		font-family: $font_1, $font_2
+		font-size: 32px
+		color: $black
+
+
+.logo
+	font-family: $font_3
+
+.jumbotron
+	background: $color_shark_approx $url_0 no-repeat
+	background-size: 100% 100%
+	height: 510px
+	.tan:
+
+.dark
+	background-color: $color_asphalt_approx
+
+.gray
+	border-color: $color_tapa_approx
+
+i:hover
+	color: $color_indian_khaki_approx
+
+.has-feedback .form-control-feedback
+	top: 0
